@@ -59,7 +59,7 @@ public class Date {
     }
 
     public void displayDate() {
-    // Aqui usamos o printf para formatar a data com as barras /
+    // formatador de data com as barras /
     System.out.printf("%d/%d/%d%n", day, month, year);
 }
 
