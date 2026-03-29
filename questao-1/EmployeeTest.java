@@ -10,6 +10,7 @@ public class EmployeeTest {
         emp2.setMonthlySalary(emp2.getMonthlySalary() * 1.10); // o %s salva o local para uma string
         System.out.printf("Novo salário anual de %s é: %.2f%n", emp2.getFirstName(), (emp2.getMonthlySalary() * 12));
        
+        
         // o printf foi usado pra montar a frase interia pra evitar de abrir e fechar aspas e adicionando o +
     }
 }
