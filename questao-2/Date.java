@@ -60,7 +60,7 @@ public class Date {
 
     public void displayDate() {
     // formatador de data com as barras /
-    System.out.printf("%d/%d/%d%n", day, month, year);
+    System.out.printf("%02d/%02d/%02d%n", day, month, year);
 }
 
 }
