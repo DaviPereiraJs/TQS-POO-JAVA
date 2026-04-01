@@ -1,7 +1,7 @@
 public class EmployeeTest {
     public static void main(String[] args) {
-        // intanciando objetos
-        Employee emp1 = new Employee("Davi", "Nascimento", 700.00);
+        // instanciando objetos
+        Employee emp1 = new Employee("Davi", "Nascimento", 2000.00);
         Employee emp2 = new Employee("João", "Neto", 2000.00);
 
         emp1.setMonthlySalary(emp1.getMonthlySalary() * 1.10); // aumento de 10%

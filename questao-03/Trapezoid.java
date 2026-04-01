@@ -4,7 +4,7 @@ class Trapezoid extends Quadrilateral {
         super(p1, p2, p3, p4);
     }
 
-    @Override
+    @Override // o override faz esquecer a regra geral e diz que a conta é ralizada de determinada maneira
     public double getArea() {
         // Base maior (p1 a p2) e Base menor (p4 a p3)
         double base1 = getP1().distanceTo(getP2());
@@ -39,7 +39,7 @@ class Rectangle extends Parallelogram {
 
     @Override
     public double getArea() {
-        // Área = base * altura (   que aqui é exatamente o tamanho da lateral p2 até p3)
+        // Área = base * altura ( que aqui é exatamente o tamanho da lateral p2 até p3)
         double width = getP1().distanceTo(getP2());
         double height = getP2().distanceTo(getP3());
         return width * height;

@@ -21,7 +21,7 @@ public class Main {
         }
 
         // 2 ajustando a taxa de juros anual para 5% (0.05)
-        System.out.println("\n--- Mudança de taxa: Ajustando para 5% ao ano ---");
+        System.out.println("\n Mudança de taxa: Ajustando para 5% ao ano ");
         SavingsAccount.modifyInterestRate(0.05);
         
         // calculando o juros do próximo mês (mês 13) com a nova taxa

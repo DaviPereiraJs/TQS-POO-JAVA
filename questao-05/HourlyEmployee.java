@@ -2,7 +2,8 @@ public class HourlyEmployee extends Employee {
     private double wage; // Valor da hora
     private double hours; // Horas trabalhadas
 
-    public HourlyEmployee(String firstName, String lastName, String cpf, double wage, double hours) {
+  public HourlyEmployee(String firstName, String lastName, String cpf, double wage, double hours) {
+        // Mudei o hours pelo cpf aqui no super:
         super(firstName, lastName, cpf);
         this.wage = wage;
         this.hours = hours;

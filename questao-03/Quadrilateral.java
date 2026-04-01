@@ -1,5 +1,5 @@
 // super class
-// abstract = conceito
+// abstract = conceito, que serve de base pra outras class
 abstract class Quadrilateral {
     // instanciando os objetos 
     private Point p1, p2, p3, p4;
@@ -12,12 +12,12 @@ abstract class Quadrilateral {
         this.p4 = p4;
     }
 
-    // metdod get, ler os pontos guardados de forma privada
+    // metoodo get, ler os pontos guardados de forma privada
     public Point getP1() { return p1; }
     public Point getP2() { return p2; }
     public Point getP3() { return p3; }
     public Point getP4() { return p4; }
 
-    // contrato obrigatorio, garantindo que as filhas 
+    // contrato obrigatorio, garantindo que as filhas herdem a o jeito de calcular
     public abstract double getArea();
 }

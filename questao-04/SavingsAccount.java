@@ -1,9 +1,9 @@
 public class SavingsAccount {
-    // Variável estática: compartilhada por todas as contas
-    private static double annualInterestRate; 
+    // variavel de estatica compartilhada por todas as contas
+    private static double annualInterestRate; // so pertence ao banco
 
-    // Variável de instância: cada conta tem o seu próprio saldo
-    private double savingsBalance;
+    // variavel de instancia cada conta tem o seu próprio saldo
+    private double savingsBalance; // carteira do cliente
 
     // Construtor para inicializar o saldo da conta
     public SavingsAccount(double balance) {

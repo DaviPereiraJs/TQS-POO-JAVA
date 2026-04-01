@@ -1,8 +1,9 @@
 public class SalariedEmployee extends Employee {
     private double weeklySalary;
 
-    public SalariedEmployee(String firstName, String lastName, String cpf, double weeklySalary) {
-        super(firstName, lastName, weeklySalary); // Passa os dados básicos para a classe mãe
+   public SalariedEmployee(String firstName, String lastName, String cpf, double weeklySalary) {
+        // Mudei o weeklySalary pelo cpf aqui no super:
+        super(firstName, lastName, cpf); 
         this.weeklySalary = weeklySalary;
     }
 

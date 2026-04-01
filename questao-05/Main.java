@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Processando a Folha de Pagamento Polimorficamente:\n");
 
-        // O Polimorfismo em ação!
+        // O Polimorfismo em ação
         for (Employee currentEmployee : employees) {
             System.out.println(currentEmployee.toString()); // Chama o toString específico de cada um
             System.out.printf("Ganhos: $%.2f%n%n", currentEmployee.earnings()); // Chama o cálculo específico de cada um

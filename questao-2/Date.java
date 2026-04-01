@@ -1,5 +1,5 @@
 public class Date {
-    // instanciandos objetos
+    // declarando os atributos
     private int day;
     private int month;
     private int year;
@@ -18,7 +18,6 @@ public class Date {
         }
 
         // validação de ano
-
         if (year > 0){
             this.year = year;
         }

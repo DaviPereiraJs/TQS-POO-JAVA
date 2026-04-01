@@ -1,12 +1,11 @@
-// Definição da classe Employee conforme solicitado no exercício
 public class Employee {
  
     // Atributos privados para garantir o encapsulamento
-    private String firstName;    // Armazena o primeiro nome do funcionário
-    private String lastName;     // Armazena o último nome do funcionário
-    private double monthlySalary; // Armazena o salário mensal (aceita casas decimais)
+    private String firstName;    
+    private String lastName;     
+    private double monthlySalary;
 
-    // Construtor usado para criar o objeto e dar valores iniciais aos atributos 
+    // construtor usado para criar o objeto e dar valores iniciais aos atributos 
     public Employee (String firstName, String lastName, double monthlySalary) {
         this.firstName = firstName; // 'this' diferencia o atributo da classe do parâmetro
         this.lastName = lastName;
@@ -30,7 +29,7 @@ public class Employee {
         return monthlySalary;
     }
 
-    // 'Set' servem para alterar (definir) novos valores para os atributos
+    // 'Set' servem para alterar, definir novos valores para os atributos
     public void setFisrtName(String fisrtName) {
         this.firstName = fisrtName;
     }
